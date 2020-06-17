@@ -2373,3 +2373,34 @@ fieldset[disabled] .s-btn {
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
 }
+
+/* 新添加的单项 css 样式 */
+
+.foot_container {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 40px;
+    background: #F4F4F4;
+}
+
+.fBarL{
+    width: 700px;
+    float:left;
+    text-align:center;
+    line-height: 30px;
+    background: #F4F4F4;
+}
+
+.fBarR {
+    width: 500px;
+    float:right;
+    text-align:center;
+    line-height: 30px;
+    background: #F4F4F4;
+}
+
+.container_g-padding-y-50--xs {
+  height: 50px;
+  margin:0 auto;
+  margin-top: 20px;
+}
