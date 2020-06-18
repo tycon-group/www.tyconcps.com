@@ -2380,24 +2380,14 @@ fieldset[disabled] .s-btn {
     width: 1200px;
     margin: 0 auto;
     line-height: 40px;
-    background: #F4F4F4;
 }
 
 .fBarL{
-    width: 700px;
-    float:left;
     text-align:center;
     line-height: 30px;
-    background: #F4F4F4;
+    font-size: x-small;
 }
 
-.fBarR {
-    width: 500px;
-    float:right;
-    text-align:center;
-    line-height: 30px;
-    background: #F4F4F4;
-}
 
 .container_g-padding-y-50--xs {
   height: 50px;
