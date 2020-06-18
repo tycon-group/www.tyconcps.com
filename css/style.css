@@ -2247,10 +2247,7 @@ fieldset[disabled] .s-btn {
   Google Map
 ------------------------------------*/
 /* Custom Style */
-.s-google-map,
-.s-google-map .s-google-container {
-  position: relative;
-}
+
 
 /* Info Window: White background and box outline */
 .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div {
