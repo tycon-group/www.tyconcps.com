@@ -1,6 +1,7 @@
 /*----------------------------------
 	Common HTML elements and more for easier usage
 ------------------------------------*/
+* {touch-action: pan-y;}
 html {
   overflow-x: hidden;
 }
