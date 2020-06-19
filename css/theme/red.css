@@ -177,7 +177,6 @@ a:focus, a:hover {
 
 /* Promo Block v3 */
 .s-promo-block-v3__divider:before {
-  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.9) -25%, #c54041 100%);
   background-repeat: repeat-x;
 }
 
@@ -262,17 +261,17 @@ a:focus, a:hover {
   Colors
 ------------------------------------*/
 .g-color--primary {
-  color: #c54041 !important;
+  color: #677172 !important;
 }
 
 .g-color--text[href]:hover {
-  color: #c54041 !important;
+  color: #677172 !important;
 }
 
 .g-color--white-opacity[href]:hover {
-  color: #c54041 !important;
+  color: #677172 !important;
 }
 
 .g-bg-color--primary {
-  background: #c54041 !important;
+  background: #677172 !important;
 }
