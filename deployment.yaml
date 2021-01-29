@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: web-tyconcps
+  labels:
+    app: web-tyconcps
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web-tyconcps
+  template:
+    metadata:
+      labels:
+        app: web-tyconcps
+    spec:
+      containers:
+      - name: web-tyconcps
+        image: harbor.tyconcps.com/web:latest
+        ports:
+        - containerPort: 80
+          name: web
