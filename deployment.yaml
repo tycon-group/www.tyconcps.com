@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-tyconcps
-        image: harbor.tyconcps.com/library/www.tyconcps.com/:latest
+        image: tyconcps.com:30003/library/www.tyconcps.com/:latest
         ports:
         - containerPort: 80
           name: web
