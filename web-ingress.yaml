@@ -1,0 +1,57 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    field.cattle.io/creatorId: user-g8g5x
+    field.cattle.io/ingressState: '{"d2ViLWluZ3Jlc3MvZGVmYXVsdC90eWNvbmNwcy5jb20vLzgw":"deployment:default:web","dGxzLXR5Y29uY3BzLWNvbQ==":"p-fxgld:tls-tyconcps-com"}'
+  creationTimestamp: "2021-01-29T17:51:47Z"
+  generation: 1
+  labels:
+    cattle.io/creator: norman
+  managedFields:
+  - apiVersion: extensions/v1beta1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:field.cattle.io/creatorId: {}
+          f:field.cattle.io/ingressState: {}
+        f:labels:
+          .: {}
+          f:cattle.io/creator: {}
+      f:spec:
+        f:rules: {}
+        f:tls: {}
+    manager: Go-http-client
+    operation: Update
+    time: "2021-01-29T17:51:47Z"
+  - apiVersion: networking.k8s.io/v1beta1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:loadBalancer:
+          f:ingress: {}
+    manager: nginx-ingress-controller
+    operation: Update
+    time: "2021-01-29T17:51:49Z"
+  name: web-ingress
+  namespace: default
+  resourceVersion: "899886"
+  selfLink: /apis/extensions/v1beta1/namespaces/default/ingresses/web-ingress
+  uid: 3e0f7808-db3a-4c0c-a626-dac14b435f8f
+spec:
+  rules:
+  - host: www.tyconcps.com
+    http:
+      paths:
+      - backend:
+          serviceName: ingress-875b86b6e5e13dcb014c71252344bcca
+          servicePort: 80
+        pathType: ImplementationSpecific
+  tls:
+  - secretName: tls-tyconcps-com
+status:
+  loadBalancer:
+    ingress:
+    - hostname: tyconcps.com
